@@ -2,7 +2,11 @@
 
 
 
-
+/**
+ * PRELOAD
+ * 
+ * loading will be end after document is loaded
+ */
 
 const preloader = document.querySelector("[data-preaload]");
 
@@ -13,7 +17,9 @@ window.addEventListener("load", function () {
 
 
 
-
+/**
+ * add event listener on multiple elements
+ */
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
@@ -23,7 +29,9 @@ const addEventOnElements = function (elements, eventType, callback) {
 
 
 
-
+/**
+ * NAVBAR
+ */
 
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
@@ -70,7 +78,9 @@ window.addEventListener("scroll", function () {
 
 
 
-
+/**
+ * HERO SLIDER
+ */
 
 const heroSlider = document.querySelector("[data-hero-slider]");
 const heroSliderItems = document.querySelectorAll("[data-hero-slider-item]");
